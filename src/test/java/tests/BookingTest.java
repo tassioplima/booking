@@ -15,8 +15,7 @@ public class BookingTest extends SetupTest {
     private BookingSteps bookingSteps;
 
     @Test
-    @Tag("first_test")
-    public void FindingSomeTest(){
+    public void HappyPatch(){
 
         bookingSteps = new BookingSteps(this.caps.getDriver());
 
